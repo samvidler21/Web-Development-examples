@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Assignment</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+</head>
+<body>
+<div id="content"></div>
+<link rel="stylesheet" href="./css/style.css" type="text/css">
+<section>
+<h1>Hotel Search Finder</h1>
+<body background="images/beach.jpg" alt="beach">
+<p>Welcome to Hotel Search finder please enter your email address before choosing your ideal hotel by selecting from the preference boxes below.</p>
+<form>
+<p>
+<label for="emailAddress">Please enter your email address:</label>
+<input id="emailAddress" type="text" name="emailAddress"/>
+</p>
+<input type="button" value="Go" id="loginBtn">
+</form>
+<div id="msgDiv">
+</div>
+</section>
+<section>
+<form id="WifiForm">
+<fieldset>
+<legend>
+    Would you like the hotel to have Wifi?
+</legend>
+    <label for="Yes">Yes</label>
+    <input type="checkbox" value="Yes" name="Yes" id="Yes"/>
+    <label for="No">No</label>
+    <input type="checkbox" value="No" name="No" id="No"/>
+</fieldset>
+</form>
+<form id="PetsForm">
+<fieldset>
+<legend>
+    Would you like the hotel to allow Pets?
+</legend>
+    <label for="Yes">Yes</label>
+    <input type="checkbox" value="Yes" name="Yes" id="Yes"/>
+    <label for="No">No</label>
+    <input type="checkbox" value="No" name="No" id="No"/>
+</fieldset>
+</form>
+<form id="SwimmingPoolForm">
+<fieldset>
+<legend>
+    Would you like the hotel to have a Swimming Pool?
+</legend>
+    <label for="Yes">Yes</label>
+    <input type="checkbox" value="Yes" name="Yes" id="Yes"/>
+    <label for="No">No</label>
+    <input type="checkbox" value="No" name="No" id="No"/>
+</fieldset>
+</form>
+<form>
+<p>
+<label for="starRating">Please enter the number of stars you would like the hotel to have</label>
+<input id="starRating" type="text" name="starRating"/>
+</p>
+</form>
+<form>
+<p>
+<label for="Distance">Please enter the distance you would like the hotel to be from the City Centre</label>
+<input id="Distance" type="text" name="Distance"/>
+</p>
+</form>
+<form>
+<p>
+<label for="breakfastPrice">Please enter how much you would like breakfast to be at the hotel</label>
+<input id="breakfastPrice" type="text" name="breakfastPrice"/>
+</p>
+</form>
+<form>
+<p>
+<label for="priceperNight">Please enter the price you would like the hotel to be per night</label>
+<input id="priceperNight" type="text" name="priceperNight"/>
+</p>
+<input type="button" value="Go" id="GoBtn">
+</form>
+<div id="messageDiv">
+</div>
+<p>The hotels or hotel displayed are ideal for you based on your preferences.</p>
+</section>
+<script src="./js/assign2.js"></script>
+</body>
+</html>
